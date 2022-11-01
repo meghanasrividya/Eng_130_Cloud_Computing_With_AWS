@@ -61,6 +61,9 @@ One of the biggest benefits of cloud technology is its increased security. Most 
 
 ![image](https://user-images.githubusercontent.com/97250268/199244090-fd95fe47-52c0-4bc4-a1b3-8897be6bac82.png)
 
+#### CapEx vs OpEx
+
+![image](https://user-images.githubusercontent.com/97250268/199246280-d59d8360-4435-44be-89dc-1a80fff7db6b.png)
 
 
 
