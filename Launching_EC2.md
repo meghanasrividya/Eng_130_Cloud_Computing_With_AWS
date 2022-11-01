@@ -70,6 +70,24 @@
 ![image](https://user-images.githubusercontent.com/97250268/199301094-9de83952-6b6d-43cb-bd26-2a4e6e207d74.png)
 
 
+### Steps to set up reverse proxy:
+
+- Give the command  to open the default file `sudo nano /etc/nginx/sites-available/default`
+
+- Replace the location block with the below lines. change the localhost:3000
+
+![image](https://user-images.githubusercontent.com/97250268/199302765-5a299db5-6f37-4b61-a0e8-b4860b6c2b98.png
+
+- To check whether the sysnx is correct `sudo nginx -t`
+- Give the command `sudo systemctl restart nginx`
+- Now to check whether reverse proxy is working ,go to the browser in which you have given the public IP address and refresh the page .
+
+
+![image](https://user-images.githubusercontent.com/97250268/199303555-8d5a360e-a693-467b-958c-3eb82d5d1ad8.png)
+
+
+
+
 
 
 
