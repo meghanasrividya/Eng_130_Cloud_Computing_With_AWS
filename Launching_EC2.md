@@ -70,7 +70,7 @@
 ![image](https://user-images.githubusercontent.com/97250268/199301094-9de83952-6b6d-43cb-bd26-2a4e6e207d74.png)
 
 
-### Steps to set up reverse proxy:
+## Steps to set up reverse proxy:
 
 - Give the command  to open the default file `sudo nano /etc/nginx/sites-available/default`
 
