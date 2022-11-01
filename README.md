@@ -65,5 +65,8 @@ One of the biggest benefits of cloud technology is its increased security. Most 
 
 ![image](https://user-images.githubusercontent.com/97250268/199246280-d59d8360-4435-44be-89dc-1a80fff7db6b.png)
 
+#### CapEx vs OpEx costs
+- When choosing a Cloud service model, the financial requirements of CapEx vs OpEx will play an important role. If your goal is to avoid cost-related risks, the ideal choice is a public cloud service which provides a major advantage: pay as you go, model. The public cloud approach continues to be one of the most sought after models by companies due to its security and money saving strategies that businesses experience, among others. For many organizations, a pay-as-you-go model is the best solution as it allows experts to manage and maintain the cloud. This frees businesses the need to hire new staff, allowing the current IT staff to focus on other specific day-to-day tasks and other responsibilities. In addition, it provides control over the financial course and strategy, increasing the predictability of the business. Overall, an OpEx approach focuses on keeping expenses down.
 
+- Agility goes out the window when you invest too much time, money, and manpower into a CapEx expense that you later can’t change due to the amount of investment you already did in all those resources. This is a guaranteed way for your business to enter a very dangerous zone.
 
