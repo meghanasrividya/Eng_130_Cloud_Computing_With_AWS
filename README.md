@@ -4,6 +4,10 @@ Cloud_Computing_with_AWS
 ## What is Cloud Computing?
 - Cloud Computing is the delivery of on demand services over the inernet on a pay as you basis.
 
+
+![image](https://user-images.githubusercontent.com/97250268/199235832-52f15752-2b68-4869-8de8-a063f2992e74.png)
+
+
 #### Why cloud Computing? What are the benefits of cloud computing?
 
 - Cloud is incredibly important for businesses because it provides flexibility, data recovery, virtually no maintenance, and easy access to its users. Furthermore, its high level of security provides ease of mind as you can rest assured knowing your data is right where it needs to be and only accessible by authorized individuals.
@@ -24,3 +28,39 @@ With cloud, you receive more reliability since it allows you to easily backup da
 
 **Security :**
 One of the biggest benefits of cloud technology is its increased security. Most cloud providers offer policies, technologies, and other options that help to increase your company’s data security. This provides greater defense against threats to your data and infrastructure.
+
+## What is AWS ? Who is using it and why?
+- Amazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.
+
+### What are IAAS PAAS SAAS?
+- IaaS, PaaS and SaaS are the three most popular types of cloud service offerings. (They are sometimes referred to as cloud service models or cloud computing service models.)
+
+#### **IaaS**:
+- Infrastructure as a service, is on-demand access to cloud-hosted physical and virtual servers, storage and networking - the backend IT infrastructure for running applications and workloads in the cloud. 
+
+**Users:** IT Administrators
+
+**IAAS PRODUCTS AND SERVICES**:
+- Amazon Web Services | EC2
+- Microsoft Azure
+- GoGrid
+
+#### **PaaS**: 
+- Platform as a service, is on-demand access to a complete, ready-to-use, cloud-hosted platform for developing, running, maintaining and managing applications.
+
+**Users:** Software Developers
+
+**PAAS PRODUCTS AND SERVICES**:
+- Amazon Web Services EBS
+- Microsoft Azure
+
+ #### **SAAS**:
+ - Software as a service, is on-demand access to ready-to-use, cloud-hosted application software.
+ 
+ **Users:** End Customers
+
+![image](https://user-images.githubusercontent.com/97250268/199244090-fd95fe47-52c0-4bc4-a1b3-8897be6bac82.png)
+
+
+
+
