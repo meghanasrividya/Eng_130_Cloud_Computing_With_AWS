@@ -2,7 +2,7 @@
 
 - **Step 1:**  Go to EC2 dashboard and click on the launch instance 
 
-- **Step 2:**  Give the name of the Ec2 instance in the below format
+- **Step 2:**  Give the name of the Ec2 instance
 
 ![image](https://user-images.githubusercontent.com/97250268/199283566-d9e1a1de-53cb-47d5-a986-e47cbbd47ff8.png)
 
@@ -20,7 +20,7 @@
 
 
 
-- **Step 5:** Give the key - pair  as eng130
+- **Step 5:** Give the key - pair  
 
 ![image](https://user-images.githubusercontent.com/97250268/199284560-e5f12fee-940a-4ef6-b00d-0a901749802d.png)
 
