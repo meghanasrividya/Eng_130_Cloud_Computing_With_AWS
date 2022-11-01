@@ -53,6 +53,13 @@
 
 ![image](https://user-images.githubusercontent.com/97250268/199288401-b0e74413-b68e-480a-ac8e-46c9505441e8.png)
 
+- Step 11: Select EC2 instance connect copy the public IP address and paste in the browser 
+
+![image](https://user-images.githubusercontent.com/97250268/199290844-7ad88b6d-97e6-431d-89cb-bfd5e370aa4d.png)
+
+- Step 12: 
+
+
 
 
 
