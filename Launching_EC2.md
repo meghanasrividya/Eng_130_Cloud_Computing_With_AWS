@@ -76,8 +76,21 @@
 
 - Replace the location block with the below lines. change the localhost:3000
 
-![image](https://user-images.githubusercontent.com/97250268/199302765-5a299db5-6f37-4b61-a0e8-b4860b6c2b98.png
+- Replace the location block with the below lines. change the localhost:3000
+  ```proxy_pass http://localhost:3000;
+     proxy_http_version 1.1;
+     proxy_set_header Upgrade $http_upgrade;
+     proxy_set_header Connection 'upgrade';
+     proxy_set_header Host $host;
+     proxy_cache_bypass $http_upgrade;
+     ```
 
+
+
+
+
+- To check whether the syntax is correct `sudo nginx -t`
+- Give the command `sudo systemctl restart nginx`
 - To check whether the sysnx is correct `sudo nginx -t`
 - Give the command `sudo systemctl restart nginx`
 - Now to check whether reverse proxy is working ,go to the browser in which you have given the public IP address and refresh the page .
