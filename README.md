@@ -2,7 +2,7 @@
 Cloud_Computing_with_AWS
 
 ## What is Cloud Computing?
-- Cloud Computing is the delivery of on demand services over the inernet on a pay as you basis.
+- Cloud Computing is the delivery of on demand services over the internet on a pay as you basis.
 
 
 ![image](https://user-images.githubusercontent.com/97250268/199235832-52f15752-2b68-4869-8de8-a063f2992e74.png)
