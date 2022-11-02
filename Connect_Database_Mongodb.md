@@ -17,6 +17,7 @@ sudo systemctl enable mongod
 ```
 
 - Change the mongod.conf file
+- `cd /etc`
 - Give the command `sudo nano mongod.conf`
 -   port: 27017
     bindIp: 0.0.0.0
