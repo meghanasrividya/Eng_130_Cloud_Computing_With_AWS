@@ -2,6 +2,11 @@
 
 ### Steps to connect MongoDb  with th APP:
 
+For the Mongodb EC2 instance  add the security group 
+
+![image](https://user-images.githubusercontent.com/97250268/199565012-6a225766-68ff-4a01-96f4-3608586df2b7.png)
+
+
 - Install the mongodb in the db vm
 ```sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv D68FA50FEA312927
 echo "deb https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
