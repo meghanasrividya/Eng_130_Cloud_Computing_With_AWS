@@ -13,7 +13,7 @@ sudo apt install net-tools -y
 rm /etc/mongod.conf
 cp /home/vagrant/sync/mongod.conf /etc/mongod.conf
 sudo systemctl start mongod.service
-sudo systemctl enable mongod'''
+sudo systemctl enable mongod```
 
 - Change the mongod.conf file
 - Give the command `sudo nano mongod.conf`
