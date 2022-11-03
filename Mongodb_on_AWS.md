@@ -73,7 +73,20 @@ sudo systemctl enable mongod
 - Install pip3 `sudo apt-get intall python3-pip`
 - Install awscli `sudo pip3 install awscli`
 - Give the command `ams configure`
+  ```AWS Access Key ID [None]: <enter key ID>
+     AWS Secret Access Key [None]: <enter access key>
+     Default region name [None]: eu-west-1
+     Default output format [None]: json```
 - Give access key, secret key, region name,outpput format
 - To check whether connected to S3 , we have to give the command `aws s3 ls`
 - We can the list of items that s3 bucket have
 
+### S3-CRUD
+- To create the bucket `aws s3 mb://name`
+- To add the file into the bucket `aws s3 cp s3://name/file.md`
+- To download the file from the bucket to the instance `aws s3 cp file.md s3://name/file.md`
+- To delete a file from the bucket `aws s3 rm s3://<location of the file`
+- Example:`aws s3 rm s3://eng130-meghana/test.txt`
+- To delete the bucket ( Make sure you delete all the files from the bucket.Bucket should be empty before deleting it)
+- To delete everything under the bucket `aws s3 rm --recursive s3://your_bucket_name`
+- To remove all the files recursively from the bucket and then to delete the bucket `aws s3 rb --force s3://your_bucket_name`
