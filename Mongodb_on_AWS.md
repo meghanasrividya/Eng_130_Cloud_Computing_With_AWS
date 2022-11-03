@@ -47,4 +47,33 @@ sudo systemctl enable mongod
 #### What is S3?
 - Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can use Amazon S3 to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics. Amazon S3 provides management features so that you can optimize, organize, and configure access to your data to meet your specific business, organizational, and compliance requirements.
 
+#### What are the benefits of S3?
+- Compliance Capability
+- Flexible Management
+- Flexible data transfer
+- A systematic way of work
+- Durability, Availability, and Scalability
+
+#### What are the use cases of S3?
+
+- Data Archiving
+- Large Data Storage and Analytics
+- Backup and recovery
+
+
+## Disastor Recovery Diagram
+
+
+![image](https://user-images.githubusercontent.com/97250268/199713753-807b52d1-ce3a-4ed3-a4fd-1d25aab590ab.png)
+
+### Steps to access S3
+
+- ssh into the EC2 instance
+- Install python 3 `sudo apt-get install python3`
+- Install pip3 `sudo apt-get intall python3-pip`
+- Install awscli `sudo pip3 install awscli`
+- Give the command `ams configure`
+- Give access key, secret key, region name,outpput format
+- To check whether connected to S3 , we have to give the command `aws s3 ls`
+- We can the list of items that s3 bucket have
 
