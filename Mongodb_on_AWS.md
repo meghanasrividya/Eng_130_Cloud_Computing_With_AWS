@@ -46,6 +46,9 @@ sudo systemctl enable mongod
 - Disaster recovery involves a set of policies, tools, and procedures to enable the recovery or continuation of vital technology infrastructure and systems following a natural or human-induced disaster.
 #### What is S3?
 - Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can use Amazon S3 to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics. Amazon S3 provides management features so that you can optimize, organize, and configure access to your data to meet your specific business, organizational, and compliance requirements.
+- S3 is the service and buckets are containers for data stored in S3.
+- S3 is a global service , anybody with permissions can access it globally.
+
 
 #### What are the benefits of S3?
 - Compliance Capability
@@ -53,9 +56,10 @@ sudo systemctl enable mongod
 - Flexible data transfer
 - A systematic way of work
 - Durability, Availability, and Scalability
+- In addition to the storage features it has a very developer friendly environment , we can access the data programmatically.
+  
 
 #### What are the use cases of S3?
-
 - Data Archiving
 - Large Data Storage and Analytics
 - Backup and recovery
@@ -90,3 +94,5 @@ sudo systemctl enable mongod
 - To delete the bucket ( Make sure you delete all the files from the bucket.Bucket should be empty before deleting it)
 - To delete everything under the bucket `aws s3 rm --recursive s3://your_bucket_name`
 - To remove all the files recursively from the bucket and then to delete the bucket `aws s3 rb --force s3://your_bucket_name`
+
+
