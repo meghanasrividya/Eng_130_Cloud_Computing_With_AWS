@@ -35,6 +35,18 @@ bucket_name=input("Bucket name: ")
 region=input("Bucket region: ")
 create_bucket(bucket_name, region)
 ```
+#### Output:
+
+![image](https://user-images.githubusercontent.com/97250268/199938966-eb1f595e-769b-49e5-9ff1-40b99bd24bac.png)
+
+#### Bucket got created in aws :
+- Bucket got created in specified region
+
+![image](https://user-images.githubusercontent.com/97250268/199939263-f10ac8cd-ffdb-40c5-b3ef-376078c0c3c8.png)
+
+
+
+ 
 ### Upload data/file to S3 bucket using python boto3
 
 - Create python file (upload_file.py) and add below code:
@@ -72,3 +84,12 @@ file_name=input("Name of file you would like to upload: ")
 bucket=input("Name of bucket to upload to: ")
 upload_file(file_name, bucket)
 ```
+
+#### Output:
+
+![image](https://user-images.githubusercontent.com/97250268/199939489-b43afec8-9ec2-412b-b484-d88ad1dd5ad4.png)
+
+#### File got uploaded in the bucket mentioned:
+
+![image](https://user-images.githubusercontent.com/97250268/199939932-3f6d3bc8-c90e-40e4-b448-15c8d4c13ed1.png)
+
