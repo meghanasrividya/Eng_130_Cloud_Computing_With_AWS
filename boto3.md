@@ -93,3 +93,18 @@ upload_file(file_name, bucket)
 
 ![image](https://user-images.githubusercontent.com/97250268/199939932-3f6d3bc8-c90e-40e4-b448-15c8d4c13ed1.png)
 
+
+#### Download Files from Bucket:
+
+- This downloads the file from the bucket to EC2 instance
+- Create python file `sudo nano download_file` and add the below code
+```import boto3
+
+s3 = boto3.client('s3')
+
+BUCKET_NAME=input("What is the name of the bucket you want to rerieve: ")
+FILE_NAME=input("What is the name of the file you want to retrieve: ")
+OBJECT_NAME=FILE_NAME
+
+s3.download_file(BUCKET_NAME, OBJECT_NAME, FILE_NAME)
+```
