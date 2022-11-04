@@ -94,7 +94,7 @@ upload_file(file_name, bucket)
 ![image](https://user-images.githubusercontent.com/97250268/199939932-3f6d3bc8-c90e-40e4-b448-15c8d4c13ed1.png)
 
 
-#### Download Files from Bucket:
+### Download Files from Bucket:
 
 - This downloads the file from the bucket to EC2 instance
 - Create python file `sudo nano download_file` and add the below code
@@ -108,3 +108,26 @@ OBJECT_NAME=FILE_NAME
 
 s3.download_file(BUCKET_NAME, OBJECT_NAME, FILE_NAME)
 ```
+#### Output:
+
+![image](https://user-images.githubusercontent.com/97250268/200058071-fd7e37c4-ea96-4adf-a996-5de067ae1397.png)
+
+### Delete Bucket:
+
+- Make sure your bucket is empty .
+- Create python file  `sudo nano delete_bucket.py` and add
+
+```
+import boto3
+
+s3 = boto3.client('s3')
+
+bucket=input("What is the name of the bucket you would like to delete: ")
+
+response = s3.delete_bucket(Bucket=bucket)
+```
+
+#### Output:
+
+![image](https://user-images.githubusercontent.com/97250268/200058699-a31d3ea4-8ae0-4b96-8448-4de987290223.png)
+
