@@ -46,7 +46,12 @@ sudo apt-get upgrade -y
 sudo apt-get install nginx -y
 sudo systemctl restart nginx
 sudo systemctl enable nginx
-``
+```
+
+- Click on `create launch template`,you can see the message successfully created launch template.
+
+ ![image](https://user-images.githubusercontent.com/97250268/200171752-cab22333-11f5-4ec0-b02f-17ad4249fdf0.png)
+
 
 
 
