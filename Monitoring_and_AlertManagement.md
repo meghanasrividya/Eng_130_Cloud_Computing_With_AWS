@@ -13,6 +13,15 @@
 
 ![image](https://user-images.githubusercontent.com/97250268/200147945-f50931b5-b3a6-4ff5-9976-506912764d3a.png)
 
+- CloudWatch is a service used to monitor your AWS resources and applications that you run on AWS in real time. CloudWatch is used to collect and track metrics that measure your resources and applications.
+
+- It displays the metrics automatically about every AWS service that you choose.
+
+- You can create the dashboard to display the metrics about your custom application and also display the metrics of custom collections that you choose.
+
+- You can also create an alarm to watch metrics. For example, you can monitor CPU usage, disk read and disk writes of Amazon EC2 instance to determine whether the additional EC2 instances are required to handle the load or not. It can also be used to stop the instance to save money.
+
+
 ![image](https://user-images.githubusercontent.com/97250268/200147760-9bcaddbf-7fab-4be1-b80a-736d9378d5d0.png)
 
 ## SNS:
