@@ -82,7 +82,6 @@ sudo systemctl enable nginx
 
 ### Third Iteration : Connect to DB using DB AMI
 
-- While creating the luacnch template use the mongodb AMI
 
 
 
