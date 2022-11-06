@@ -75,6 +75,15 @@ sudo systemctl enable nginx
 ![image](https://user-images.githubusercontent.com/97250268/200173683-9d9bf999-447d-4e87-9fc5-9032d75aa9b7.png)
 
 
+### Second Iteration: To Setup Autoscaling group to the node app
+- While creating the luanch template use the node app AMI we saved
+- Use node app provisioning script in the user data in Advanced Details -->User data
+- Add `port:3000` along with `port :80` in the listeners and routing
+
+### Third Iteration : Connect to DB using DB AMI
+
+- While creating the luacnch template use the mongodb AMI
+
 
 
 
