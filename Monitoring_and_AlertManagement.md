@@ -24,6 +24,16 @@
 
 ![image](https://user-images.githubusercontent.com/97250268/200147760-9bcaddbf-7fab-4be1-b80a-736d9378d5d0.png)
 
+Following are the terms associated with CloudWatch:
+
+- Dashboards: CloudWatch is used to create dashboards to show what is happening with your AWS environment.
+
+- Alarms: It allows you to set alarms to notify you whenever a particular threshold is hit.
+
+- Logs: CloudWatch logs help you to aggregate, monitor, and store logs.
+
+- Events: CloudWatch help you to respond to state changes to your AWS resources.
+
 ## SNS:
 
 - SNS stands for Simple Notification Service.
