@@ -78,4 +78,10 @@ Following are the terms associated with CloudWatch:
  
  ![image](https://user-images.githubusercontent.com/97250268/200177242-d1a10f1c-0f88-4f71-af47-7c4b8c32534c.png)
 
+- Confirm the subscription 
+
+![image](https://user-images.githubusercontent.com/97250268/200177631-cb16378f-8204-4bdf-b3d2-73e5238bf4cf.png)
+
+- You will start receiving the notifications when CPU >=20
+![image](https://user-images.githubusercontent.com/97250268/200178218-c85f1582-a33b-477f-b531-cef6ab440c9b.png)
 
