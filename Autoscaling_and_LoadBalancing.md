@@ -70,8 +70,9 @@ sudo systemctl enable nginx
 - Under Scaling Policies, select `Target Tracking scaling Policy`
 ![image](https://user-images.githubusercontent.com/97250268/200173416-69664093-e2ee-4513-9b93-cbbecd9f0611.png)
 
+- click next-->next-->next--> review and click on `Create AutoScaling Group`
+- ![image](https://user-images.githubusercontent.com/97250268/200173683-9d9bf999-447d-4e87-9fc5-9032d75aa9b7.png)
 
-- 
 
 
 
