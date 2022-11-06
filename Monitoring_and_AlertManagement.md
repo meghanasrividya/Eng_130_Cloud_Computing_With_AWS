@@ -67,4 +67,15 @@ Following are the terms associated with CloudWatch:
 
 ![image](https://user-images.githubusercontent.com/97250268/200177005-c1e70107-4a24-4b84-af70-84e90f7aa914.png)
 
+- Add alarm name and description and click next
+![image](https://user-images.githubusercontent.com/97250268/200177102-bb4788fa-6cb9-48ee-9df2-83f0eb855e68.png)
+
+- Click on create alarm
+
+![image](https://user-images.githubusercontent.com/97250268/200177149-5f05a73d-f000-4ff4-a7e2-e316ba7dbcbc.png)
+ 
+ - You can see the message successfully created alarm
+ 
+ ![image](https://user-images.githubusercontent.com/97250268/200177242-d1a10f1c-0f88-4f71-af47-7c4b8c32534c.png)
+
 
