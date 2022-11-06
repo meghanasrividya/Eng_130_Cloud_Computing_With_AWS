@@ -49,3 +49,22 @@ Following are the terms associated with CloudWatch:
 
 ![image](https://user-images.githubusercontent.com/97250268/200147781-b7fd0a41-cfc6-4116-b75b-4e663847535a.png)
 
+### Steps to setup SNS :
+- Create an EC2 instance
+- Select the EC2 instance --->Monitoring--->Add to Dashboard
+
+![image](https://user-images.githubusercontent.com/97250268/200175729-c929a168-1c6b-459d-8259-8a32767a0741.png)
+
+- Select or create dashboadoard and `Add to Dashboard`
+
+![image](https://user-images.githubusercontent.com/97250268/200175815-4af1b070-075f-429e-8994-f74fed34fff6.png)
+
+- Select the metric and specify the conditions 
+
+![image](https://user-images.githubusercontent.com/97250268/200176722-9ed79141-302b-44d0-a277-5f9ff30babb1.png)
+
+- Create a new topic and give the email address to recieve notifications
+
+![image](https://user-images.githubusercontent.com/97250268/200177005-c1e70107-4a24-4b84-af70-84e90f7aa914.png)
+
+
