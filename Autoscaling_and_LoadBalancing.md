@@ -53,6 +53,29 @@ sudo systemctl enable nginx
  ![image](https://user-images.githubusercontent.com/97250268/200171752-cab22333-11f5-4ec0-b02f-17ad4249fdf0.png)
 
 
+### Steps to Create AutoScaling Group:
+
+- Under `Auto Scaling` select `Auto Scaling Groups` and click on ` Create Auto Scaling Group`
+- Give the name for `Auto scaling group` and select the luanch template and click on next.
+- Select the default VPC and under `Avaliabilty zones and subnets` select the subnets and click on next.
+![image](https://user-images.githubusercontent.com/97250268/200172485-d005f3b0-dc17-4959-be24-8b85b6e6cc85.png)
+- Under `Load balancing - optionalInfo` select `Attach to a new load balancer`
+- Under  `Load balancer type` select `Application Load Balancer`
+- Give the name under `Load balancer name` as `eng130-meghana-app-asg-alb` ( do not include underscores in the name)
+- Under the `Load Balancer Scheme` select `Internet Facing`
+- Under `Liseters and routing` create new target group
+- Under `Health checks - optional` check ELB and click on next
+- Under the Group size  ,select the Desired Capacity, Minimum Capacity and Maximum Capacity
+![image](https://user-images.githubusercontent.com/97250268/200173324-7b7db09f-db08-414d-9594-ee557736b6f7.png)
+- Under Scaling Policies, select `Target Tracking scaling Policy`
+![image](https://user-images.githubusercontent.com/97250268/200173416-69664093-e2ee-4513-9b93-cbbecd9f0611.png)
+
+
+- 
+
+
+
+
 
 
 
