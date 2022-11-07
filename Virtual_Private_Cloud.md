@@ -36,6 +36,7 @@
 
 
 - Step 1: Create a VPC
+  - 
 - Step 2: Create an internet gateway
 - 2.1 :attach the IG to our VPC
 - Step 3: Create a public subnet 10.0.5.0/24
