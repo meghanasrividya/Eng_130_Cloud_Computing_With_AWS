@@ -36,8 +36,13 @@
 
 
 - Step 1: Create a VPC
-  - 
+   - Click on Create VPC
+   - Click on vpc only under `Resources to create`
+   - Give the name tag `eng130-meghana-vpc`
+   - Under IPV4 CIDR give the CIDR of VPC `10.0.0.0/16`
+   - Click on `create vpc`
 - Step 2: Create an internet gateway
+   - Go to Internet gateways , then click on `create Internet gateway`
 - 2.1 :attach the IG to our VPC
 - Step 3: Create a public subnet 10.0.5.0/24
 - Step 4: route table
