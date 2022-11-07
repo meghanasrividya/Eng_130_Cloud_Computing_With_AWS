@@ -30,6 +30,11 @@
 
 ![image](https://user-images.githubusercontent.com/97250268/200323512-1177f491-736c-416c-b6bf-d7b2c81c016b.png)
 
+### Steps to create VPC and 2 tier architecture inside the VPC
+
+![image](https://user-images.githubusercontent.com/97250268/200359849-3b2959fa-3c6c-408e-9259-44cd1c6da483.png)
+
+
 - Step 1: Create a VPC
 - Step 2: Create an internet gateway
 - 2.1 :attach the IG to our VPC
@@ -37,4 +42,17 @@
 - Step 4: route table
 - 4.1: add routes to connect to IG
 - 4.2 associate RT to public subnet
-launch new ec2 
+- Create the private subnet
+- Launch EC2 using the node app AMI and give the security groups
+- Security Group rules for app :ssh - my ip,80-anywhere,3000-anywhere
+- Launch EC2 using the mongodb AMI and give the security group
+- Security Group rules for mongodb: 27017 from CIDR of app
+**In app instance**
+- SSH into the app instance and create the enviromental variable using the private ip of mongodb
+- `ubuntu@ip-10-0-5-118:~$ export DB_HOST=mongodb://10.0.17.33:27017/posts`
+-  We have to go inside the app folder and give command`node seeds/seed.js`
+-  Then give command  `npm start`
+-  Copy the public ip of the app instance and paste in the browser `http://3.252.247.92/posts`
+-  You can see the posts.
+ ![image](https://user-images.githubusercontent.com/97250268/200358208-eadeb8ea-d367-473a-8e4b-867af8dfb7d0.png)
+
