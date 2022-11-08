@@ -43,6 +43,7 @@
    - Click on `create vpc`
 - Step 2: Create an internet gateway
    - Go to Internet gateways , then click on `create Internet gateway`
+   - Give the name tag and click on `Create Internet Gateway`
 - 2.1 :attach the IG to our VPC
 - Step 3: Create a public subnet 10.0.5.0/24
 - Step 4: route table
